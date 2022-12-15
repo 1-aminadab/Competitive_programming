@@ -17,12 +17,7 @@ import sys
 def countingSort(arr):
     
     result = []
-    # to get the maximum range
-    largestValue =0
-    for i in range(len(arr)):
-        if largestValue < arr[i]:
-            largestValue = arr[i] 
-    print(largestValue)        
+        
     for i in range(100):
         result.append(int(0)) 
            
